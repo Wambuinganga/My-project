@@ -1,0 +1,8 @@
+from django.urls import path
+from .views import list_products
+
+
+urlpatterns=[
+path("list/",list_products, name="list_products"),
+
+]
